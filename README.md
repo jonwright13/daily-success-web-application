@@ -1,5 +1,7 @@
 # Daily Success Web App
 
+A reverse-todo list webapp
+
 # Usage:
 
 1. cd into the client directory and npm install to sync packages
