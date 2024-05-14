@@ -1,0 +1,26 @@
+Auth
+POST    /api/auth/register             Register new user                        Done
+POST    /api/auth/login                Log user in                              Done
+POST    /api/auth/logout               Log user out                             ALMOST (Move JWT)
+
+User
+PUT     /api/user/change-name           Change user's name
+PUT     /api/user/change-email          Change user's email
+PUT     /api/user/change-password       Change user's password
+PUT     /api/user/change-goal           Change user's goal
+
+Posts
+GET     /api/posts/                     Get all posts                           Done
+POST    /api/posts/                     Create a post                           Done
+GET     /api/posts/:id                  Get post with an id                     Done
+DELETE  /api/posts/:id                  Delete a post with id                   Done
+PUT     /api/posts/:id                  Update a post with id
+GET     /api/posts/mood/:id             Get all moods associated with a post
+
+Moods
+GET     /api/moods/                     Get all moods associated with a user
+POST    /api/moods/                     Create a moood
+PUT     /api/moods/:id                  Update a mood with id
+DELETE  /api/moods/id                   Delete a mood with id
+
+
